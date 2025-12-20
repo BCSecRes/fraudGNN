@@ -59,11 +59,6 @@ The model is evaluated on the **Held-out Test Set (Timesteps 40-49)**, which rep
 * **ROC AUC:** **~0.85 - 0.86** (Demonstrating strong ranking capability).
 * **Metric Stability:** Instead of F1-score (which is threshold-sensitive and volatile), we use **Average Precision (AP)** and **AUC** to visualize performance stability over time.
 
-### Threshold Calibration
-Standard thresholds (0.5) often fail on future data due to confidence shifts. We apply **Manual Threshold Calibration** (e.g., lowering to ~0.25 - 0.35) derived from validation analysis to significantly boost **Recall**, ensuring fewer illicit transactions slip through.
-
-![Final Test Report](image/final_test_report.png)
-
 ## 🛠️ Installation
 
 1.  Clone the repository:
