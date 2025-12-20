@@ -68,7 +68,7 @@ Standard thresholds (0.5) often fail on future data due to confidence shifts. We
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/BCSecRes/fraudGNN.git](https://github.com/BCSecRes/fraudGNN.git)
+    git clone https://github.com/BCSecRes/fraudGNN.git
     ```
 
 2.  Install dependencies:
