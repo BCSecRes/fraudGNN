@@ -62,7 +62,7 @@ The model is evaluated on the **Held-out Test Set (Timesteps 40-49)**, which rep
 ### Threshold Calibration
 Standard thresholds (0.5) often fail on future data due to confidence shifts. We apply **Manual Threshold Calibration** (e.g., lowering to ~0.25 - 0.35) derived from validation analysis to significantly boost **Recall**, ensuring fewer illicit transactions slip through.
 
-*(Insert your final chart here: `image/final_test_report.png`)*
+![Final Test Report](image/final_test_report.png)
 
 ## 🛠️ Installation
 
