@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Illicit Transaction Detection on Bitcoin Network using Temporal GNNs
+# 🕵️‍♂️ Illicit Transaction Detection on Bitcoin Network using CT-GNN
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Geometric-orange)
