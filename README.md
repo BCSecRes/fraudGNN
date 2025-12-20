@@ -6,7 +6,7 @@
 
 This project focuses on detecting illicit transactions (money laundering, fraud) on the Bitcoin network using the **Elliptic Data Set**.
 
-The core innovation of this repository is the application of **Temporal Graph Neural Networks (TGAT/CT-GNN)** combined with a rigorous **Incremental Learning Strategy** to handle the dynamic nature of cryptocurrency flows and **Concept Drift** over time.
+The core innovation of this repository is the application of **Temporal Graph Neural Networks (CT-GNN)** combined with a rigorous **Incremental Learning Strategy** to handle the dynamic nature of cryptocurrency flows and **Concept Drift** over time.
 
 ## 🚀 Key Features
 
@@ -21,7 +21,7 @@ The core innovation of this repository is the application of **Temporal Graph Ne
 
 | File | Description |
 | :--- | :--- |
-| **`ct-gnn-kfold.ipynb`** | 🏆 **Main Pipeline (Best Model)**. Implements CT-GNN (Robust TGAT) with **Incremental K-Fold Training**. Features temporal sorting, ensemble inference, and final evaluation using AUC & Average Precision (AP). |
+| **`ct-gnn-kfold.ipynb`** | 🏆 **Main Pipeline (Best Model)**. Implements CT-GNN with **Incremental K-Fold Training**. Features temporal sorting, ensemble inference, and final evaluation using AUC & Average Precision (AP). |
 | **`ct-gnn.ipynb`** | Development notebook for Continuous-Time GNN architecture and Time Encoders. |
 | **`tgat.ipynb`** | Implementation of the standard **TGAT** architecture. |
 | **`tgnmodel.ipynb`** | Implementation of **TGN (Temporal Graph Network)** with memory modules for node state persistence. |
