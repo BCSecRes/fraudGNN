@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Geometric-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 This project focuses on detecting illicit transactions (money laundering, fraud) on the Bitcoin network using the **Elliptic Data Set**.
 
@@ -68,8 +68,7 @@ Standard thresholds (0.5) often fail on future data due to confidence shifts. We
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/BCSecRes/fraudGNN.git](https://github.com/BCSecRes/fraudGNN.git)
     ```
 
 2.  Install dependencies:
