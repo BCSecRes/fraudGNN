@@ -73,5 +73,6 @@ The model is evaluated on the **Held-out Test Set (Timesteps 40-49)**, which rep
 
 3.  Download the dataset from [Kaggle](https://www.kaggle.com/ellipticco/elliptic-data-set) and place the CSV files in the input directory.
 
-
+## Contact:
+email: ha.nguyen.fzx@gmail.com
 ---
